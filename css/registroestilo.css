@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url("../img/fondo.jpg") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(207, 24, 231, 0.322); 
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+    border: 2px solid rgb(236, 232, 236);
+    border-radius: 15px;
+}
+
+h2 {
+    margin-bottom: 6px;
+    margin-top: 0;
+    color: white;
+    transition: color 0.3;
+    border: 2px solid white;
+}
+h2:hover{
+    color: violet;
+}
+fieldset{
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+legend{
+    font-weight:bold;
+    padding: 0 10px;
+    background-color: #f5f5f5;
+    color: black;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+legend:hover{
+    color: white;
+    background-color: #d5a3da;
+}
+
+label {
+    font-weight:bold;
+    display: block;
+    margin-bottom: 3px;
+    text-align: left;
+    color: rgb(61, 2, 61) ;
+    transition: color 0.3;
+}
+label:hover{
+
+    color: #5a06e2;
+}
+
+
+input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 2px;
+    border: 2px solid #e0dde0b6;
+    border-radius: 3px;
+    background-color: #d5a3da;
+    transition: color 0.3;
+}
+
+input:hover{
+
+    background-color: rgba(231, 230, 231, 0.966);
+    border: 2px solid rgb(200, 4, 226);
+}
+
+.radio-group {
+display: flex;
+align-items: center;
+gap: 10px; /* Espacio entre los elementos */
+}
+
+.radio-group input[type="radio"] {
+margin: 0px; /* Espacio entre el radio y la etiqueta */
+
+}
+
+
+
+
+button{
+    font-weight:bold;
+    font-size: 14;
+    color: black;
+    background-color: #d5a3da;
+    transition: color 0.3, background-color 0.3;
+    border: 2px solid #ebece7;
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+}
+button:hover {
+    background-color:violet;
+    color: white;
+    border: 2px solid #faf9f9;
+}
+.error-message, .success-message {
+    color: red;
+    margin-top: 10px;
+}
+.success-message {
+    color: green;
+}

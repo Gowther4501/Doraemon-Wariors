@@ -1,0 +1,66 @@
+/* Estilo general del contenedor */
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: linear-gradient(to right, #1f89b3, #d309e6);
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container label {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.container input[type="text"],
+.container input[type="email"],
+.container input[type="tel"],
+.container input[type="date"],
+.container input[type="file"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.container input[type="text"],
+.container input[type="email"],
+.container input[type="tel"],
+.container input[type="date"] {
+    background-color: #fff;
+    color: #333;
+}
+
+.container input[type="file"] {
+    background-color: #eee;
+}
+
+.container button {
+    background-color: #fff;
+    color: #1f89b3;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.container button:hover {
+    background-color: #f0f0f0;
+}

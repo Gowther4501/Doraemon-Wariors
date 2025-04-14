@@ -1,0 +1,17 @@
+
+body {
+  margin: 0;
+  padding: 0;
+ /* background: linear-gradient(to right, #1f89b3, #d309e6);*/
+}
+
+.chart-column{
+display: inline-flex;
+}
+
+a{
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+

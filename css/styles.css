@@ -1,0 +1,181 @@
+
+/*general*/ 
+
+.page { display: none; }
+.page.active { display: block; }
+body {
+    font-family: Arial, sans-serif;
+    background: url("../img/fondo.jpg") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+
+#p1{
+    color: white;
+    transition: color 0.3;
+    border: 2px solid #e0dde0b6;
+   font-size: 26px;
+}
+#p1:hover{
+color: black;
+
+}
+
+
+fieldset{
+    border: 3px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+legend{
+    font-weight:bold;
+    padding: 0 10px;
+    background-color: #f5f5f5;
+    color: black;
+    transition: color 0.3, background-color 0.3 ;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+legend:hover{
+
+    color: rgb(229, 227, 231) ;
+    background-color: #5a06e2;
+}
+
+label {
+    font-weight:bold;
+    display: block;
+    margin-bottom: 3px;
+    text-align: left;
+    color: rgb(61, 2, 61) ;
+    transition: color 0.3;
+}
+label:hover{
+
+    color: #5a06e2;
+}
+#lb2{
+    text-align: center;
+   
+    
+}
+
+input {
+    width: 70%;
+    padding: 5px;
+    margin-bottom: 2px;
+    border: 2px solid #e0dde0b6;
+    background-color: rgba(207, 24, 231, 0.911);
+    transition: color 0.3;
+    border-radius: 3px;
+}
+input:hover{
+
+    background-color: rgba(231, 230, 231, 0.966);
+    border: 2px solid rgb(69, 2, 78);
+}
+
+.radio-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    /* gap: 10px;  Espacio entre los elementos */
+    }
+
+    button{
+        font-weight:bold;
+        color: white;
+        background-color: rgb(243, 20, 169);
+        transition: color 0.3, background-color 0.3;
+        border: 2px solid #ebece7;
+        width: 100px;
+        padding: 2px;
+    }
+    button:hover {
+        background-color: #ba0bca;
+        color: black;
+        border: 2px solid #070707;
+    }
+
+/*pagina1*/ 
+    #page1{
+        background-color: rgba(207, 24, 231, 0.322); 
+        padding: 70px;
+        text-align: center;
+        width: 400px;
+        
+    }
+
+
+
+    /*pagina2*/ 
+
+    #page2{
+        background-color: rgba(207, 24, 231, 0.322); 
+        padding: 70px;
+        text-align: center;
+        width: 500px;
+    }
+
+       /*pagina3*/ 
+
+       #page3{
+        background-color: rgba(207, 24, 231, 0.322); 
+        padding: 40px;
+        text-align: center;
+        width: 600px;
+
+    }
+
+
+       /*pagina4*/ 
+
+       #page4{
+        background-color: rgba(207, 24, 231, 0.322); 
+        padding: 70px;
+        text-align: center;
+        width: 500px;
+    }
+
+    #env{
+        font-weight:bold;
+        color: white;
+        background-color: rgb(243, 20, 169);
+        transition: color 0.3, background-color 0.3;
+        border: 2px solid #ebece7;
+        width: 100px;
+        padding: 2px;
+
+
+    }
+    #env:hover {
+        background-color: #ba0bca;
+        color: black;
+        border: 2px solid #070707;
+    }
+
+   #comentarios{
+        width: 70%;
+        padding: 4px;
+        margin-bottom: 2px;
+        border: 2px solid #e0dde0b6;
+        background-color: rgba(207, 24, 231, 0.911);
+        transition: color 0.3;
+        border-radius: 3px;
+    }
+  #comentarios:hover{
+    
+        background-color: rgba(231, 230, 231, 0.966);
+        border: 2px solid rgb(69, 2, 78);
+    }

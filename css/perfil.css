@@ -1,0 +1,123 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            
+            width: 80%;
+            max-width: 900px;
+            margin: 20px auto;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        .profile-header {
+            background: linear-gradient(to right, #071cdb7e, #d409e6ce);
+            display: flex;
+            align-items: center;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+        .profile-header:hover {
+            
+            background: linear-gradient(to right, #ce0bf5ad, #6513cfd7);
+        }
+        .profile-header img {
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+        .profile-header h1 {
+            margin: 0;
+            font-size: 2em;
+            color: white;
+        }
+        .profile-header p {
+            color: white;
+            font-size: 1em;
+        }
+        .profile-info {
+            margin-bottom: 20px;
+            background: linear-gradient(to right, #6572ebad, #d409e6ce);
+        }
+        .profile-info:hover {
+            
+            background: linear-gradient(to right, #ce0bf5ad, #6513cfd7);
+        }
+        .profile-info h2 {
+            margin-top: 0;
+            text-align: center;
+            padding: 10px;
+        }
+        .profile-info p {
+            margin-top: 0;
+            
+            padding: 5px;
+        }
+        .edit-form {
+            
+            background: linear-gradient(to right, #071cdb7e, #d409e6ce);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .edit-form:hover {
+            
+            background: linear-gradient(to right, #ce0bf5ad, #6513cfd7);
+        }
+        .edit-form input, .edit-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .edit-form button {
+            background: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .edit-form button:hover {
+            background: #0056b3;
+        }
+        .edit-form h2 a {
+           
+            color: white;
+            font-size:26px;
+           
+        }
+        
+        .edit-form h2 a:hover {
+            color: #0056b3;
+           
+        }
+  /* Botón de regreso */
+.back-button {
+    text-align: center;
+}
+
+.back-button button {
+    background: linear-gradient(to right, #071cdb7e, #d409e6ce);
+    color: #fff;
+    border: none;
+    padding: 20px 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.back-button button:hover {
+    background-color: #0056b3;
+}
